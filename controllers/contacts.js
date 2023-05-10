@@ -39,7 +39,6 @@ const deleteById = async (req, res) => {
   res.json({
     message: "contact deleted",
   });
-  // res.status(204).send();
 };
 
 module.exports = {
